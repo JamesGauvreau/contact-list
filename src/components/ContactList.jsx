@@ -28,7 +28,7 @@ console.log(contacts);
             const owner = await dog.json();
             console.log(`second contacts test`);
             console.log(contacts);
-            setContacts(result);
+            setContacts(owner);
             // fetch logic goes here
   } catch (error) {
     console.error(error);
